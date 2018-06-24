@@ -1,0 +1,26 @@
+{
+  "name": "myportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "npm": "^5.8.0",
+    "popper.js": "^1.14.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-simple-line-icons": "^1.0.8",
+    "shards": "^1.0.3",
+    "shards-ui": "^2.0.3",
+    "simple-line-icons": "^2.4.1",
+    "tether": "^1.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "myportfolio -d build"
+  }
+}

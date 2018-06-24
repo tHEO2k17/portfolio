@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+#section{
+    background-color: #F4F6FA;
+    /* background: url('../img/bg.svg'), #fafafa; */
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.logoImage{
+    width: 60px;
+    height: 60px;
+}
+#footer{
+    padding-top: 30px;
+}
