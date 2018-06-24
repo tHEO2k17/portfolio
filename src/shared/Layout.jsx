@@ -35,7 +35,7 @@ export default class Layout extends Component {
                 </section>
                 <footer id="footer">
                     <div className="container">
-                        <div className="row">
+                        <div className="row text-center">
                             <div className="col">
                                 <h3>
                                     <SimpleLineIcon name="social-github" size="large"/>
