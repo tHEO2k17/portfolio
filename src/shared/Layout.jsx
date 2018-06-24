@@ -11,7 +11,7 @@ export default class Layout extends Component {
                     <nav className="navbar static-top navbar-expand-lg navbar-light bg-transparent">
                         <div className="container">
                             <a href="void(0);" className="navbar-brand">
-                                <img src={require('../assets/img/me.jpg')} className="logoImage rounded-circle" alt="tHEO" />
+                                <img src={require('../assets/img/me.jpg')} className="logoImage rounded-circle border" alt="tHEO" />
                             </a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Menu Toggle">
                                 <span className="navbar-toggler-icon"></span>
