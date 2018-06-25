@@ -14,7 +14,7 @@ export default class About extends Component {
                     <button type="button" className="btn btn-outline-light btn-pill">Know more</button>
                 </div>
                 <div className="col-md-3">
-                    <div className="card mt-sm-3">
+                    <div className="card mt-3">
                         <img class="card-img-top" src={require('../../assets/img/pos.png')} alt="UI&amp;UI" />
                         <div class="card-body">
                         </div>
