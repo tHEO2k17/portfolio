@@ -46,10 +46,12 @@ export default function HomePage() {
                         <Col>
                             <h1 className="fw-bold">My Career So Far</h1>
                             <h4 className="text-white-50 mt-4">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                Possimus, voluptatum! Dignissimos, ducimus facilis. 
-                                Culpa nihil esse qui cupiditate vero ad exercitationem maxime consequuntur, 
-                                eveniet totam praesentium dicta, dolorem inventore? Dolorem.
+                                Always up for a challenge, I have worked for lean start-ups<br />
+                                and was a member of the first New Zealand start-up to attend Y Combinator,
+                                the largest start-up accelerator in the world. <br />
+                                From there, I worked my way up to Art Director and Team Lead at Appster where
+                                I oversaw the design of 30+ mobile and desktop apps. Currently,
+                                I lead UI/UX design at SaaS start-up VideoMyJob.
                             </h4>
                         </Col>
                         <Col>
