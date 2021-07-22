@@ -21,19 +21,17 @@ export default function HomePage() {
 
             <header className="min-vh-100">
                 <Container>
-                    <Row className="align-items-center min-vh-100 my-auto gx-5">
+                    <Row className="align-items-center min-vh-100 my-auto">
+                        <Col md="4"> <Image src="assets/images/theo.png" fluid /> </Col>
                         <Col>
                             <h1 className="display-1 fw-bold">
-                                <b className="text-danger">H</b>ELLO <br />
+                                <b className="text-danger">H</b>ELLO <br /> 
                                 <b className="text-danger">T</b>HERE!
                             </h1>
-                            <h4 className="fw-light text-muted mt-3">
-                                I am Theophilus Paintsil, a mobile <br/> 
-                                and web developer with an eye for beauty <br/> 
-                                and experienced in developing client first solutions.
+                            <h4>
+                                I am Theophilus Paintsil, a mobile and web developer with an eye for beauty and experienced in developing client first solutions.
                             </h4>
                         </Col>
-                        <Col md="4"> <Image src="assets/images/theo.png" fluid /> </Col>
                     </Row>
                 </Container>
             </header>

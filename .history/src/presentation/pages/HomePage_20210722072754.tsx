@@ -5,12 +5,10 @@ export default function HomePage() {
         <>
             <Navbar expand="lg" fixed="top" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <span className="fw-bold">tHEO<b className="text-danger">.</b></span>
-                    </Navbar.Brand>
+                    <Navbar.Brand href="#home">tHEO.</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
-                        <Nav className="ms-auto">
+                        <Nav className="ml-0">
                             <Nav.Link href="#home">WORK</Nav.Link>
                             <Nav.Link href="#home">ABOUT</Nav.Link>
                             <Nav.Link href="#link">RESUME</Nav.Link>
@@ -21,19 +19,14 @@ export default function HomePage() {
 
             <header className="min-vh-100">
                 <Container>
-                    <Row className="align-items-center min-vh-100 my-auto gx-5">
+                    <Row className="align-items-center min-vh-100 my-auto">
+                        <Col md="4"> <Image src="assets/images/theo.png" fluid /> </Col>
                         <Col>
-                            <h1 className="display-1 fw-bold">
-                                <b className="text-danger">H</b>ELLO <br />
-                                <b className="text-danger">T</b>HERE!
-                            </h1>
-                            <h4 className="fw-light text-muted mt-3">
-                                I am Theophilus Paintsil, a mobile <br/> 
-                                and web developer with an eye for beauty <br/> 
-                                and experienced in developing client first solutions.
+                            <h1 className="display-1 fw-bold">Hello <br /> there!</h1>
+                            <h4>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, facere quisquam? Accusantium tenetur, libero, omnis quasi laborum vitae quibusdam deleniti repudiandae nisi, maiores commodi voluptatibus consequuntur sapiente provident blanditiis error?
                             </h4>
                         </Col>
-                        <Col md="4"> <Image src="assets/images/theo.png" fluid /> </Col>
                     </Row>
                 </Container>
             </header>

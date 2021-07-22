@@ -28,9 +28,7 @@ export default function HomePage() {
                                 <b className="text-danger">T</b>HERE!
                             </h1>
                             <h4 className="fw-light text-muted mt-3">
-                                I am Theophilus Paintsil, a mobile <br/> 
-                                and web developer with an eye for beauty <br/> 
-                                and experienced in developing client first solutions.
+                                I am Theophilus Paintsil, a mobile and web developer with an eye for beauty and experienced in developing client first solutions.
                             </h4>
                         </Col>
                         <Col md="4"> <Image src="assets/images/theo.png" fluid /> </Col>
